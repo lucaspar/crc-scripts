@@ -1,0 +1,4 @@
+#!/bin/bash
+set -e
+
+junest -f -b "--bind /afs/crc.nd.edu/user/l/$USER /afs/crc.nd.edu/user/l/$USER" -b "--bind /scratch365/$USER/ /scratch365/$USER/"
