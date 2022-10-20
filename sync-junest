@@ -1,0 +1,5 @@
+#!/bin/bash
+
+PKGLIST="$HOME/installed/pacman/pkglist"
+pacman -S --needed - < "$PKGLIST"
+pacman -Qqe > "$PKGLIST"
